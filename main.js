@@ -8,4 +8,12 @@ canvas.height = 576;
 canvasContext.fillRect(0, 0, canvas.width, canvas.height);
 
 //Create Player abd ennemies
-class Sprite {}
+class Sprite {
+  /**
+   * @param {number} position
+   */
+  constructor(position) {
+    this.position = position;
+  }
+}
+const player = new Sprite();
